@@ -15,6 +15,10 @@ for(let i = 0; i < listImg.length; i++){
     // CREO UNA CLASSE ALL'ELEMENTO
     element.classList.add("item")
 
+    if(i===0){
+        element.classList.add("active")
+    }
+
 
     // INSERISCO IL CONTENUTO NELL'ELEMENTO
     element.innerHTML = (`<img src="${listImg[i]}" alt="img">`);
