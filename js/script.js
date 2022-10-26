@@ -1,2 +1,29 @@
 // CREAZIONE ARRAY
-const listImg = ["src=img/01.jpg", "src=img/02.jpg", "src=img/03.jpg", "src=img/04.jpg", "src=img/05.jpg" ]
+const listImg = ["img/01.jpg", "img/02.jpg", "img/03.jpg", "img/04.jpg", "img/05.jpg" ]
+
+
+// DICHIARO VARIABILE CONTAINER
+let container = document.querySelector(".items")
+
+
+// creazione ciclo per inserimento lista nel html
+for(let i = 0; i < listImg.length; i++){
+    
+    // CREO UN DIV IN JS
+    const element = document.createElement("div")
+
+    // CREO UNA CLASSE ALL'ELEMENTO
+    element.classList.add("item")
+
+
+    // INSERISCO IL CONTENUTO NELL'ELEMENTO
+    element.innerHTML = (`<div class="item"><img src="${listImg[i]" alt="img"></div>`);
+
+
+    // STAMPA l'ELEMENTO CREATO NEL SUO CONTENITORE
+    items
+    
+
+    
+
+}
