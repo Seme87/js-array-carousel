@@ -1,0 +1,45 @@
+/*----------------------
+            RESET
+------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*----------------------
+            RESET
+------------------------*/
+
+
+/*----------------------
+            COMMON
+------------------------*/
+
+.container{
+    width: 900px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color:lightgrey ;
+}
+
+.items{
+    width: 700px;
+    height: 300px;
+    position: relative;
+}
+
+.prev .next{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+
+}
+
+.next{
+    bottom: 0;
+}
