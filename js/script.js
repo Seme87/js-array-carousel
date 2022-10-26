@@ -17,7 +17,7 @@ for(let i = 0; i < listImg.length; i++){
 
 
     // INSERISCO IL CONTENUTO NELL'ELEMENTO
-    element.innerHTML = (`<div class="item"><img src="${listImg[i]" alt="img"></div>`);
+    element.innerHTML = (`<img src="${listImg[i]" alt="img">`);
 
 
     // STAMPA l'ELEMENTO CREATO NEL SUO CONTENITORE
